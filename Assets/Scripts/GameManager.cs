@@ -55,4 +55,8 @@ public class GameManager : MonoBehaviour
     public void OnPlaneUpdated(ARPlane plane) {
         print($"Plane with id {plane.trackableId} updated");
     }
+
+    public void TriggerCloseButton() {
+        print($"Implement: End the game. Open the menu again.");
+    }
 }
