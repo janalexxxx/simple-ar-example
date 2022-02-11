@@ -12,6 +12,10 @@ public class GameManager : MonoBehaviour
 
     public Camera mainCamera;
 
+    void Start() {
+        Application.targetFrameRate = 30;
+    }
+
     // Touch Events
 
     public void OnTap(LeanFinger finger) {
